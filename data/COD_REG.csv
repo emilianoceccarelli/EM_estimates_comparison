@@ -1,0 +1,22 @@
+NOME_NUTS2,COD_REG21,DEN_REG,COD_REG20,NUTS2,COD_RIP,DEN_RIP,COD_REGIONE,reg_file
+Abruzzo,130,Abruzzo,130,ITF1,4,Sud,Abruzzo,Abruzzo
+Basilicata,170,Basilicata,170,ITF5,4,Sud,Basilicata,Basilicata
+Calabria,180,Calabria,180,ITF6,4,Sud,Calabria,Calabria
+Campania,150,Campania,150,ITF3,4,Sud,Campania,Campania
+Emilia-Romagna,80,Emilia-Romagna,80,ITD5,2,Nord-Est,Emilia-Romagna,EmiliaRomagna
+Friuli-Venezia Giulia,60,Friuli Venezia Giulia,60,ITD4,2,Nord-Est,Friuli-Venezia Giulia,FriuliVeneziaGiulia
+Lazio,120,Lazio,120,ITE4,3,Centro,Lazio,Lazio
+Liguria,70,Liguria,70,ITC3,1,Nord-Ovest,Liguria,Liguria
+Lombardia,30,Lombardia,30,ITC4,1,Nord-Ovest,Lombardia,Lombardia
+Marche,110,Marche,110,ITE3,3,Centro,Marche,Marche
+Molise,140,Molise,140,ITF2,4,Sud,Molise,Molise
+Piemonte,10,Piemonte,10,ITC1,1,Nord-Ovest,Piemonte,Piemonte
+Provincia Autonoma di Bolzano/Bozen,41,Trentino-Alto Adige,40,ITD1,2,Nord-Est,Bolzano,Bolzano
+Provincia Autonoma di Trento,42,Trentino-Alto Adige,40,ITD2,2,Nord-Est,Trento,Trento
+Puglia,160,Puglia,160,ITF4,4,Sud,Puglia,Puglia
+Sardegna,200,Sardegna,200,ITG2,5,Isole,Sardegna,Sardegna
+Sicilia,190,Sicilia,190,ITG1,5,Isole,Sicilia,Sicilia
+Toscana,90,Toscana,90,ITE1,3,Centro,Toscana,Toscana
+Umbria,100,Umbria,100,ITE2,3,Centro,Umbria,Umbria
+Valle d'Aosta/Vall�e d'Aos,20,Valle d'Aosta,20,ITC2,1,Nord-Ovest,Valle d'Aosta,ValledAosta
+Veneto,50,Veneto,50,ITD3,2,Nord-Est,Veneto,Veneto
