@@ -24,6 +24,10 @@ setwd("C:/Users/ceccarelli_emiliano/OneDrive - Istituto Superiore di Sanità/ISS
 memory.limit(size = 99999999999)
 
 
+download.file("https://www.istat.it/storage/dati_mortalita/decessi-comunali-giornalieri_4_2marzo2022.zip",
+              "data/comuni_giornaliero_31dicembre21.zip")
+unzip("data/comuni_giornaliero_31dicembre21.zip", exdir = "data")
+
 mortality_data <- read.table("data/c_index.csv", sep = ",", header = T, fileEncoding = "Latin1") %>%
   dplyr::select("PRO_COM_T", "COD_REG20", "COD_REG21", "NOME_NUTS2")%>%
   mutate(COD_REG21 = COD_REG20/10) %>%
@@ -99,13 +103,4 @@ theme_epicurve <- function(...) {
 
 
 
- 
-  
-
-library(lubridate)
-ese = data.frame(data = seq(dmy("01/01/2021"),dmy("31/12/2021"),by="day"))
-ese$week = week(ese$data)
-ese$isoweek = isoweek(ese$data)
-head(ese)
-plot(ese$week, ese$isoweek)
 
